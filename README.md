@@ -44,7 +44,7 @@ Other useful fields:
 
 ## Deploy the bot
 
-Once you've looked at the JSON payload above and read the description of the fields, you probably don't need to deploy your own bot. If you still want to experiment with it yourself, use the `yml` file in this repository with AWS CloudFormation to deploy the entire stack. You must then replace the function code for the Lambda function with the code contained in `index.py` in this repository.
+Once you've looked at the JSON payload above and read the description of the fields, you probably don't need to deploy your own bot. If you still want to experiment with it yourself, use the `yml` file in this repository with AWS CloudFormation to deploy the entire stack. You must then replace the function code for the Lambda function with the code contained in `index.js` in this repository.
 
 You will also need to [create a webhook](https://developer.webex.com/docs/api/v1/webhooks) in Webex that points to the Lambda FunctionUrl created by the CloudFormation stack mentioned above.
 
