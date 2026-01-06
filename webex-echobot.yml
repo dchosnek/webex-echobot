@@ -35,7 +35,7 @@ Resources:
     Properties:
       Handler: "index.handler"
       Role: !GetAtt ExecRcvMsg.Arn
-      Runtime: "nodejs20.x"
+      Runtime: "nodejs24.x"
       Code:
         ZipFile: |
           exports.handler = async (event) => {
